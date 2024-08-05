@@ -1,0 +1,440 @@
+.download-the-app {
+  margin: 0;
+  width: 472px;
+  height: 38px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.playstore-icon {
+  height: 33.7px;
+  width: 29.5px;
+  position: relative;
+  display: flex;
+  gap: var(--gap-0);
+}
+
+.subtext {
+  align-self: stretch;
+  height: auto;
+  position: relative;
+  font-size: var(--font-size-mini-1);
+  font-family: var(--font-product-sans);
+  color: var(--color-white);
+  text-align: left;
+  display: flex;
+  width: auto;
+}
+.subtext1 {
+  align-self: stretch;
+  height: auto;
+  position: relative;
+  font-size: 16.2px;
+  font-family: var(--font-product-sans);
+  color: var(--color-white);
+  text-align: left;
+  display: flex;
+  width: auto;
+}
+
+.path90-icon {
+  align-self: stretch;
+  height: 21.1px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: var(--color-white);
+  display: flex;
+  width: auto;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-2);
+  height: auto;
+}
+
+.store-download-button {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-6xs) var(--padding-2xs) var(--padding-xs-3);
+  background-color: var(--primary);
+  flex: 1;
+  border-radius: 8.43px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  gap: var(--gap-3xs-9);
+  min-width: 110;
+  height: auto;
+  z-index: 2;
+}
+
+.apple-icon {
+  height: 33.7px;
+  width: 28.1px;
+  position: relative;
+  display: flex;
+  gap: var(--gap-0);
+}
+
+.download-on-the {
+  align-self: stretch;
+  height: auto;
+  position: relative;
+  line-height: 12.65px;
+  font-weight: 500;
+  display: flex;
+  width: auto;
+}
+
+.app-store {
+  height: auto;
+  position: relative;
+  font-size: 19.2px;
+  letter-spacing: -0.66px;
+  line-height: 100%;
+  font-weight: 500;
+  font-family: var(--font-sf-compact-display);
+  display: flex;
+  min-width: 109.6;
+  width: auto;
+  align-self: unset;
+  z-index: 1;
+}
+
+.content1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  gap: var(--gap-0);
+}
+
+.content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs-3) 0px 0px;
+  box-sizing: border-box;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+
+.store-download-button1 {
+  cursor: pointer;
+  flex: 1;
+  border-radius: 8.43px;
+  background-color: var(--primary);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xs-2) var(--padding-5xs) var(--padding-xs-3)
+    var(--padding-2xs);
+  box-sizing: border-box;
+  gap: var(--gap-xs-2);
+  min-width: 110;
+  height: auto;
+  z-index: 2;
+}
+
+.store-button {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+}
+
+.heading2 {
+  margin: 0;
+  width: 198px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 150%;
+  font-weight: 400;
+  font-family: var(--font-norwester);
+  display: flex;
+  height: auto;
+  z-index: 2;
+}
+
+.store-elements {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-20xl-8);
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+}
+
+.icon-facebook {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  gap: var(--gap-0);
+  z-index: 2;
+}
+
+.facebook {
+  position: relative;
+  line-height: 150%;
+  display: flex;
+  min-width: 61;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 2;
+}
+
+.social-names-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0px 0px;
+  box-sizing: border-box;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+}
+
+.social-elements {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 68;
+  height: auto;
+  transform: rotate(0deg);
+}
+
+.instagram {
+  position: relative;
+  line-height: 150%;
+  display: flex;
+  min-width: 67;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 2;
+}
+
+.social-elements1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 72;
+  height: auto;
+  transform: rotate(0deg);
+}
+
+.twitter {
+  position: relative;
+  line-height: 150%;
+  display: flex;
+  min-width: 45;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 2;
+}
+
+.social-container {
+  flex: 1 1 25%;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+}
+.social-container > * {
+  flex: 1 1 25%; 
+}
+
+.text {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  display: flex;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 2;
+}
+
+.social-media {
+  width: 369px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  max-width: 100%;
+  height: auto;
+  transform: rotate(0deg);
+  font-size: var(--font-size-base);
+  font-family: var(--font-league-spartan);
+}
+
+.store-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  height: auto;
+  transform: rotate(0deg);
+}
+
+.linkedin1 {
+  position: relative;
+  line-height: 150%;
+  display: flex;
+  min-width: 54;
+  width: auto;
+  align-self: unset;
+  height: auto;
+  z-index: 2;
+}
+
+.linkedin-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  width: auto;
+  align-self: unset;
+  height: auto;
+  transform: rotate(0deg);
+}
+
+.linkedin {
+  height: 98px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: auto;
+  align-self: unset;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  font-size: var(--font-size-base);
+  font-family: var(--font-league-spartan);
+}
+
+.store-buttons {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-4xl-8);
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+  font-size: var(--font-size-smi-6);
+  font-family: var(--font-sf-compact-text);
+}
+
+.download-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-16xl);
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  transform: rotate(0deg);
+}
+
+.download-container {
+  width: 513px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-sm) var(--padding-30xl) 0px;
+  box-sizing: border-box;
+  min-height: 384;
+  max-width: 100%;
+  height: auto;
+  gap: var(--gap-0);
+  transform: rotate(0deg);
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-norwester);
+}
+
+
+
+@media (max-width: 768px) {
+  .download-the-app{
+    font-size: 0.85em;
+    line-height: 1.2;
+  }
+  .download-container{
+    padding-bottom: 0%;
+  }
+  .subtext1{
+    font-size: 12.2px;
+  }
+  .app-store{
+    font-size: 17.2px;
+  }
+  .social-container{
+    flex-wrap: wrap;
+  }
+}
