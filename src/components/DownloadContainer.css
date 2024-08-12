@@ -446,3 +446,28 @@
     flex-wrap: wrap;
   }
 }
+
+
+@media (max-width: 900px) {
+  .download-the-app{
+    font-size: 0.85em;
+    line-height: 1.2;
+  }
+  .download-container{
+    padding: 0px 0px 0px 0px;
+    padding-bottom: 0%;
+    padding-left: 0%;
+  }
+  .download-content{
+    padding-top: 5%;
+  }
+  .subtext1{
+    font-size: 12.2px;
+  }
+  .app-store{
+    font-size: 17.2px;
+  }
+  .social-container{
+    flex-wrap: wrap;
+  }
+}

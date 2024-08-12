@@ -428,7 +428,7 @@
 
 
 
-@media (max-width: 868px) {
+@media (max-width: 900px) {
   .download-app{
     flex-direction: column;
     padding: 0px 0px 0px;
@@ -440,6 +440,13 @@
     height: 2px;  /* Change height to 2px for horizontal line */
     width: 100%; /* Change width to 100% for horizontal line */
     border-width: 2px 0; 
+  }
+  .form-fields{
+    flex-direction: column;
+    gap: 40px;
+  }
+  .email-input{
+    width: 100%;
   }
 }
 

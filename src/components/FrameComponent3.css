@@ -358,3 +358,26 @@
   }
 }
 
+@media (max-width: 900px) {
+  .ginger-landing-page-inner2{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .join-the-ginger{
+    width: 100%;
+    font-size: 0.8em;
+  }
+  .join-the-ginger-community-parent{
+    width: 100%;
+  }
+  .frame-parent4{
+    flex-direction: column;
+  }
+  .frame-parent10, .frame-parent7{
+    gap: 2em;
+  }
+  .ellipse-parent{
+    margin-bottom: 6.5em;
+  }
+}
+
