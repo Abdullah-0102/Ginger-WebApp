@@ -294,7 +294,7 @@
 
 
 
-  @media (max-width: 370px) {
+  @media (max-width: 380px) {
     .container{
         flex-direction: column;
         height: 160vh;
@@ -342,7 +342,7 @@
   }
 
 
-  @media (min-width: 378px) {
+  @media (min-width: 381px) and (max-width: 768px){
     .container{
         flex-direction: column;
         height: 110vh;
@@ -390,7 +390,7 @@
   }
 
 
-  @media (min-width: 769px) {
+  @media (min-width: 769px) and (max-width: 1200px){
     .container{
         flex-direction: column;
         height: 110vh;

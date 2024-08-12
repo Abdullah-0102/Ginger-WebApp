@@ -149,7 +149,7 @@
 }
 
 
-@media (max-width: 900px) {
+@media (min-width: 769px) and (max-width: 1200px){
   .ginger-landing-page-inner1 {
     flex-direction: column; /* Stack sections vertically */
     padding: 0px var(--padding-xs) var(--padding-xs); /* Adjust padding for mobile */

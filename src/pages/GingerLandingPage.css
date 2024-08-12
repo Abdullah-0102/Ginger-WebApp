@@ -32,7 +32,7 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1200px){
   .background-container {
     height: 100vh; /* Adjust the height as needed for mobile */
   }
@@ -111,7 +111,7 @@
   transform: rotate(0deg);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 769px) and (max-width: 1200px) {
   .ginger-landing-page-inner{
     margin-top: -53vh;
     padding-bottom: 50%;
@@ -139,17 +139,17 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 380px) {
   .ginger-landing-page-inner{
     margin-top: -73vh;
     padding-bottom: 50%;
   }
   .take-your-running{
-    font-size: 0.52em;
+    font-size: 0.4em;
     margin: 0;
   }
   .get-the-support{
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
 
@@ -237,7 +237,7 @@
   display: flex;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1200px){
   .frame-parent {
     flex-direction: column; /* Stack items vertically on mobile screens */
     align-items: center; /* Center items horizontally */
@@ -430,7 +430,7 @@
   display: flex;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 769px) and (max-width: 1200px){
   .frame-section {
     flex-direction: column; /* Stack items vertically on mobile screens */
     width: 100%; /* Ensure the section takes full width */
