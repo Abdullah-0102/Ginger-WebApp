@@ -294,13 +294,11 @@
 
 
 
-
-
   @media (max-width: 768px) {
     .container{
         flex-direction: column;
         height: 110vh;
-        margin-bottom: 70%;
+        margin-bottom: 11em;
     }
     .leftPart{
         /* flex: 0 0 100%; */

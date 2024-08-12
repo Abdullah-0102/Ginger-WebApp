@@ -254,7 +254,8 @@
   flex-direction: row;
   align-items: flex-end;
   justify-content: flex-start;
-  padding: 0px var(--padding-46xl) var(--padding-11xs);
+  /* padding: 0px var(--padding-46xl) var(--padding-11xs); */
+  padding-left: 5%;
   box-sizing: border-box;
   gap: var(--gap-45xl);
   max-width: 100%;
@@ -427,6 +428,20 @@
 
 
 
+@media (max-width: 868px) {
+  .download-app{
+    flex-direction: column;
+    padding: 0px 0px 0px;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .footer-curve-icon {
+    height: 2px;  /* Change height to 2px for horizontal line */
+    width: 100%; /* Change width to 100% for horizontal line */
+    border-width: 2px 0; 
+  }
+}
 
 
 
@@ -435,7 +450,7 @@
 @media (max-width: 768px) {
   .download-app{
     flex-direction: column;
-    padding: 0px var(--padding-13xl) 0px;
+    /* padding: 0px var(--padding-13xl) 0px; */
     padding-top: 10%;
   }
   .footer-curve-icon {

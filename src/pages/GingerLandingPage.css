@@ -199,6 +199,13 @@
   display: flex;
 }
 
+@media (max-width: 868px) {
+  .image-11-icon{
+    margin-left: 5%;
+  }
+}
+
+
 /* Styles for mobile screens */
 @media (max-width: 768px) {
   .frame-parent {
@@ -208,7 +215,7 @@
   .about-us-parent {
     margin-top: 2%;
     min-width: 100%;
-    margin-left: 10%; /* Remove left margin on mobile screens */
+    /* margin-left: 10%;  */
   }
   .about-us {
     font-size: 0.8em; /* Reduce the font size for the heading */
@@ -358,11 +365,27 @@
   display: flex;
 }
 
+@media (max-width: 868px) {
+  .frame-section{
+    width: 100%;
+    margin-left: 0%;
+  }
+  .contact-us-group{
+    width: auto; /* Adjust width for mobile screens */
+    min-width: 100%; /* Ensure it takes full width */
+    align-items: flex-start; /* Center items horizontally */
+    text-align: left; /* Center text on mobile screens */
+    margin-top: 10%;
+  }
+}
+
+
+
 @media (max-width: 768px) {
   .frame-section {
     flex-direction: column; /* Stack items vertically on mobile screens */
     width: 100%; /* Ensure the section takes full width */
-    margin-left: 0; /* Remove left margin on mobile screens */
+    margin-left: 0%; /* Remove left margin on mobile screens */
     align-items: center; /* Center items horizontally */
   }
 

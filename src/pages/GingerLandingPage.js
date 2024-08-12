@@ -61,7 +61,7 @@ const GingerLandingPage = () => {
           <h3 className="welcome-to-ginger-container">
             <p className="welcome-paragraph">
               Welcome to Ginger! We empower you to achieve your <br /> wellness goals with personalized workouts,
-              expert <br />nutrition advice, and a supportive community. Join us <br />to transform your life, one workout at a time.<br />
+              expert <br />nutrition advice, and a supportive community. Join us <br />to transform your life, one workout at a time. <br />
               Embrace a fitter, happier you with FitLife!
             </p>
           </h3>
